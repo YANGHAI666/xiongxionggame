@@ -1,14 +1,13 @@
+//  lesson1App.swift
+//  lesson1
 //
-//  ______App.swift
-//  卡片记忆游戏
+//  Created by   on 2022/1/9.
 //
-//  Created by 杨海 on 2022/2/25.
-
 
 import SwiftUI
 
 @main
-struct ______App: App {
+struct lesson1App: App {
    //game 指针
     let game = EmojiMemoryGame()
     var body: some Scene {
