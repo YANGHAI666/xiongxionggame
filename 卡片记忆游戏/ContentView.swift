@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-//测试有没有改变 xcode 更改G
+//测试有没有改变 应该知道怎么会
 
 //第二次测试
  
