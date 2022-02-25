@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+//测试有没有改变
+
+
     let viewModel:EmojiMemoryGame
     var body: some View {
         //HStack水平 VStack竖直 ZStack竖直
