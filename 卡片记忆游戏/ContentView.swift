@@ -8,13 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
-//测试有没有改变 应该知道怎么会
+//使用viewmodel来遍历卡片
 
 //第二次测试
  
     
-    
-    let viewModel:EmojiMemoryGame
+  //ObservableObject一些东西改变时 重建body  
+ @ObservableObject   var viewModel:EmojiMemoryGame
     var body: some View {
         //HStack水平 VStack竖直 ZStack竖直
         

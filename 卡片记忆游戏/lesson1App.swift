@@ -8,7 +8,8 @@ import SwiftUI
 
 @main
 struct lesson1App: App {
-   //game 指针
+   //game 指针 EmojiMemoryGame是一个类
+   
     let game = EmojiMemoryGame()
     var body: some Scene {
         WindowGroup {
