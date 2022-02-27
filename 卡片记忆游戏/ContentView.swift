@@ -14,7 +14,7 @@ struct ContentView: View {
  
     
   //ObservableObject一些东西改变时 重建body  
- @ObservableObject   var viewModel:EmojiMemoryGame
+ @ObservedObject   var viewModel:EmojiMemoryGame
     var body: some View {
         //HStack水平 VStack竖直 ZStack竖直
         
