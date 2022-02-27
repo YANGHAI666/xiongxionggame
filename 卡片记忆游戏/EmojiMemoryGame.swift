@@ -9,7 +9,7 @@ import SwiftUI
 
 
 
-//viewmodel改变时告诉ui
+//viewmodel改变时告诉ui  Published
 class EmojiMemoryGame:ObservableObject  {
     
     
