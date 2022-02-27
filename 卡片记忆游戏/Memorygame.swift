@@ -19,7 +19,7 @@ struct MemoryGame<CardContent>{
                chosenCard.isFaceUp.toggle()
         print("chosenCard = \(chosenCard)")
     }
-    
+    //数组的索引 
     func index (of card: Card )
     
     ->Int{
