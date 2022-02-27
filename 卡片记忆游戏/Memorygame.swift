@@ -18,7 +18,7 @@ struct MemoryGame<CardContent>{
         
         
         cards[chosenIndex].isFaceUp.toggle()
-        print("\(cards)")
+        print("吴心语\(cards)")
     }
     //数组的索引 
     func index (of card: Card )
